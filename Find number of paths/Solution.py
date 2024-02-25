@@ -1,3 +1,10 @@
-# There are n cities from 1 to n
-# Each city is connected to every other city
-# Given a city n, find the number of possible paths from city 1 to city n
+def solution(n):
+    mod=int(1e9)+7
+    res=1
+    i=n-2
+    Pathsi=1
+    while(i>0):
+        Pathsi=(Pathsi * i) %mod
+        res=(res+Pathsi)%mod
+        i-=1
+    return res
