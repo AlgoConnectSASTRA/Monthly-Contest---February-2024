@@ -3,7 +3,7 @@ https://www.hackerrank.com/contests/monthly-contest-february-2024
 
 
 Editorial prepared by
-1. Lakshehta T
+1. Lakshetha T
 2. Arun N
 
 
