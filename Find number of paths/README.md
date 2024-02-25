@@ -16,5 +16,5 @@ Basic mathematics
    Overall the sum can be simplified down to : 1+ (n-2) +(n-2)(n-3) + ... (n-2)!
 5. But calculating each term separately will lead to TLE due to O(n<sup>2</sup>), 
    
-   But the i-th term is simply, previous term  *(n-2-i)
+   Notice that the i-th term is simply, previous term  *(n-2-i), Thus overall the solution can be done in O(n)
 6. Finally to prevent out of bounds, we mod with (10^9)+7 at each step.
